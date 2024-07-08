@@ -1,0 +1,27 @@
+\citet{Zhang.2009} & Foot-and-mouth disease & SVM & Online news articles & 830,000 & Text classification & - & 2004-10-06 - 2007-01-20 & Accuracy: 77.04; F1: 77.08; Precision: 77.10 \\ \\
+\citet{Torii.2011} & Emerging epidemics & Naïve Bayes & Online news articles & 298 & Text classification & South Asia & - & AUC: 84.1 \\ \\
+\citet{Silva.2013} & Influenza & GUARDIAN & Patient data & 1122 & Text classification & - & 2009-11-01 - 2009-11-07 & Accuracy: 97.1; Sensitivity: 95.5; Specificity: 97.6, PPV: 93.2; NPV: 98.4 \\ \\
+\citet{Cooper.2015} & Influenza & Bayesian framework & Clinical reports & - & Text classification & Allegheny County, Pennsylvania & 2009-06-01 - 2009-12-31 & PP: 99.7; MRE: 0.063; MAE: 2.5; FPR: 0.00 \\ \\
+\citet{Nsoesie.2016} & Dengue & Naive Bayes & Twitter data & 14,611 & Text classification & Brazil & 2012-10 - 2014-12 & Accuracy: 86.22; Sensitivity: 75.53; Precision: 81.20; TNR: 91.48 \\ \\
+\citet{Lim.2017} & Latent infectious diseases & SentiStrength & EMRs, Twitter data & 104, 37,599 & Unsupervised sentiment analysis & - & 2012-08 - 2013-05 & F1: 72.4; Sensitivity: 68.0; Precision: 77.3; NPV: 9.8\\ \\
+\citet{Hardjojo.2018} & Various & CHESS & Primary care EMRs & 1680 & Information extraction & Singapore & 2009 - 2014 & Precision: 96.0; Recall: 93.1; Accuracy: 97.2 \\ \\
+\citet{Pourghasemi.2020} & COVID-19 & SVM, ARIMA & GIS data, case reports & - & Predictive modelling & Fars Province, Iran & 2020-02-25 - 2020-06-10 & AUC: 78.6-86.8 \\ \\
+\citet{Kim.2020} & Various & BiLSTM & Online documents & 2864 & Text classification & - & - & Accuracy: 92.9; Precision: 92.9; Recall: 92.8; F1: 92.9; AUC: 97.06 \\ \\
+\citet{Shan.2020} & Influenza & LSTM & Social media data & 15,301 & Sentiment analysis & China & 2016 - 2017 & Accuracy: 92.6 \\ \\
+\citet{Shen.2020} & COVID-19 & Random Forest & Weibo posts & 15,000,000 & Text classification & Mainland China & 2019-11-01 - 2020-03-31 & F1: 88; Precision: 88.5; Accuracy: 88.8; Recall: 88.8 \\ \\
+\citet{Peterson.2021} & Various & CRF & Clinical notes & 4584 & Information Extraction & United States & - & Precision: 88.0; Recall: 83.3; F1: 85.6 \\ \\
+\citet{Jang.2021} & Various & WBiLSTM-TF-IDF & News articles, SNS, Web search queries & 182,338 & Topic Extraction & Brazil, Canada, England, France, Korea, Mexico & 2020-09-01 - 2020-09-15 & Accuracy: 55-65 \\ \\
+\citet{Tallam.2021}  & Schistosomiasis &  CNN  &  Snail and Cercariae Images  &  10,600  &  Image classification & Senegal & 2015-2019 & Accuracy: 91.21-99 \\ \\
+\citet{Parikh.2021} & Measles, Cholera, Dengue, Yellow Fever & Random Forest & Case counts, Vaccination rates, Public health indicators & - & Classification & Global & - & Precision: 54.11-81; Recall: 82.36-90.64; F1: 65.67-80.51; F2: 75.57-85.46 \\ \\
+\citet{Kim.2021} & Various & SSL & Media articles & 115,279 & Classification & 237 regions & 2019-01-01 - 2019-12-31 & Accuracy: 83.8-83.4; ROC: 79.1-80.5; F1: 83.2-80.2 \\ \\
+\citet{Jombart.2021} & COVID-19 & ASMODEE & Case data & - & Anomaly detection & Leicester, Blackburn & 2020-06-01 - 2020-08-10 & - \\ \\
+\citet{Akbarian.2022} & Lyme disease & Inception-Resnet & Tick images & 12,588 & Image classification & Ontario, Canada & 2019-05-01 - 2019-11-30 & Accuracy: 92.04; ROC-AUC: 98.52; PR-AUC: 96.8 \\ \\
+\citet{Raza.2022} & COVID-19 & CO-SE & Research publications & 50,000 & Information retrieval & - & 2022-02-07 - 2022-05-31 & Exact match ratio: 71.45; Semantic answer similarity: 78.55 \\ \\
+\citet{lanera2022deep}  & Varicella-Zoster &  RNN-GRU  &  Ambulatory records  &  1,227,578  &  Binary classification  & - & 2004-2014 & AUC: 95.30; Precision: - \\ \\
+\citet{Kupperman.2022} & HIV & CNN & Genetic data & 271,868 & Classification & - & - & Accuracy: 99; Sensitivity: 92; Specificity: 98 \\ \\
+\citet{Zhang.2022} & COVID-19 & BERT, LR & Twitter data & 1,107,994 & Text classification, Linear regression & US & 2020-01-22 - 2020-04-03 & Precision: 96; Recall: 99; F1: 98; Accuracy: 99; $R^2$: 0.976-0.694 \\ \\
+\citet{Bashir.2022} & COVID-19 & BiLSTM, CNN, CRF with Transformer-based Embeddings & Scientific articles & 15,000 & Text classification & - & 2021-10 - 2022-03 & Micro F1: 94.78; Macro F1: 95.37 \\ \\
+\citet{Jiang.2022} & COVID-19 & Dynamic Graph Neural Network & Social media data (tweets) & 270,000 & Monitoring & USA & From 2020-05-15 & MAE: 913.2-430.01 \\ \\
+\citet{Chang.2022} & Dengue & DuBiLSTM with attention & ProMED-mail articles & 129 & Summary generation & Southeast Asia & 1994-2019 & F1: 93; Precision: 97.72; Recall: 95.27 \\ \\
+\citet{Raza.2023} & COVID-19 & Transformer, NER, RE & Electronic case reports & 5000 & Named Entity Recognition, Relation Extraction & - & 2022-03-01 - 2022-06-30 & NER F1: 94.94; RE F1: 91.73 \\ \\
+\citet{Hutchinson.2023} & Monkeypox & EPIWATCH & Media reports, press releases, social media & 656 & Data mining & Global & 2022-04-01 to 2022-07-11 & - \\

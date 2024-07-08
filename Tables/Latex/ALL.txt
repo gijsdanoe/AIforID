@@ -1,0 +1,338 @@
+\textbf{Author(s) and year} & \textbf{Target disease} & \textbf{Model} & \textbf{Input} & \textbf{Dataset size} & \textbf{Task} & \textbf{Performance} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{7}{r}{{Continued on next page}} \\ 
+\endfoot
+
+\bottomrule
+\endlastfoot
+\multicolumn{7}{c}{\textbf{Diagnostics}} \\
+\midrule
+
+\citet{Martinez.2015}  &  Invasive fungal disease   &  SVM  &  Chest CT-scans free-text reports  &  553  & Text Classification & F1: 81.2; Sensitivity: 95.3; Precision: 70.7 \\ \\
+\citet{Saybani.2018}  &  Tuberculosis   &  SAIRS2  &  Clinical tuberculosis dataset  &  175  & Classification & Accuracy: 100; AUC: 100; Sensitivity: 100; Specificity: 100; Precision: -\\ \\
+\citet{Xiang.2019}  &  HIV  &  GCN + RF  &  Social network data  &  378  & Text Classification & Accuracy: 96.6; F1: 94.6; Precision: -\\ \\
+\citet{Woldaregay.2020}  &  Type 1 Diabetes  &  SVDD  &  Blood glucose levels, insulin-to-carbohydrate ratio  &  90  & Anomaly Detection & F1: 97; AUC: 99.6; Specificity: 100; Precision: - \\ \\
+\citet{Liu.2020}  &  COVID-19 pneumonia  &  CNN  &  Chest X-rays  &  1374  & Image Classification & Accuracy: 94.6; AUC: 99; Sensitivity: 94.1; Specificity: 95.1; Precision: -\\ \\
+\citet{Wagner.2020}  &  COVID-19  &  SciBERT  &  Unstructured EHR clinical notes  &  77,167  & Text Classification & Accuracy: 94; F1: 96; Sensitivity: 96; Precision: 96\\ \\
+\citet{Zhao.2020}  &  Malaria  &  VGG16  &  Blood cell images  &  27,558  & Image Classification & Accuracy: 96; F1: 95.6; AUC: 99.2; Sensitivity: 95.6; Specificity: 96.2; Precision: - \\ \\
+\citet{Ouchicha.2020}  &  COVID-19  &  CVDNet  &  Chest X-rays  &  2905  & Image Classification & Accuracy: 96.69; F1: 96.68; Sensitivity: 96.84; Precision: 96.72\\ \\
+\citet{Elshennawy.2020}  &  Pneumonia  &  ResNet152V2  &  Chest X-rays  &  5856  & Image Classification & Accuracy: 99.22; F1: 99.44; AUC: 99.77; Sensitivity: 99.44; Precision: 99.43 \\ \\
+\citet{Albahli.2020}  &  COVID-19  &  Inception-v3  &  Chest X-rays  &  108,948  & Image Classification & Accuracy: 89.2; Precision: -\\ \\
+\citet{Brunese.2020}  &  COVID-19  &  VGG-16  &  Chest X-rays  &  6523  & Image Classification & Accuracy: 96; F1: 94/89; Sensitivity: 96; Specificity: 87; Precision: -\\ \\
+\citet{Jeong.2020}  &  Tuberculous and Viral Meningitis  &  ANN  &  Clinical Data  &  203  & Classification & Accuracy: 87.7; AUC: 85; Sensitivity: 76.7; Specificity: 92.3; Precision: - \\ \\
+\citet{Meng.2020} & COVID-19 & 3D-DCNN (U-net) & Chest CT scans & 270 & Image Segmentation & IOU: 78.94; Dice score: 63 \\ \\
+\citet{Tadesse.2020}  &  HFMD and Tetanus  &  SVM  &  ECG Waveforms  &  HFMD: 74, Tetanus: 10  & Classification & Accuracy: 70.9; F1: 55.7; Sensitivity: 55.9; Specificity: 78; Precision: 60.6 \\ \\
+\citet{Mohammadi.2020}  &  COVID-19  &  MobileNet  &  Chest X-rays  &  348  & Image Classification & Accuracy: 99.1; F1: 99.0; AUC: 99; Sensitivity: 98; Precision: 100 \\ \\
+\citet{Abideen.2020}  &  Tuberculosis  &  Bayesian CNN  &  Chest X-rays  &  800  & Image Classification & Accuracy: 96.42; Precision: - \\ \\
+\citet{Yang.2021}  &  COVID-19  &  efficientNet-b0  &  Chest CT-scans  &  338  & Image Classification & Accuracy: 98; F1: 98; AUC: 98; Precision: - \\ \\
+\citet{Hamida.2021}  &  COVID-19  &  ResNet152V2 + ResNet101V2 + MobileNetV2 + VGG16 + VGG19  &  Chest X-rays  &  10,399  & Image Classification & Accuracy: 99.23; Sensitivity: 99.34; Specificity: 99.75; Precision: 98.96 \\ \\
+\citet{Almalki.2021}  &  COVID-19  &  CoVIRNet + RF  &  Chest X-rays  &  1251  & Image Classification & Accuracy: 97.29; F1: 97.32; Sensitivity: 97.02; Precision: 97.74 \\ \\
+\citet{Tasci.2021}  &  Tuberculosis  &  InceptionV3 + Xception  &  Chest X-rays  &  704  & Image Classification & Accuracy: 97.5; AUC: 98.91; Precision: - \\ \\
+\citet{Arora.2021}  &  COVID-19  &  DenseNet + GoogleNet + SVM + RF + XGB + LR  &  Chest X-rays  &  31,434  & Image Classification & Accuracy: 91.7; F1: 91.7; AUC: 97.6; Sensitivity: 91.6; Specificity: 95.8; Precision: - \\ \\
+\citet{Sharma.2021}  &  Tuberculosis  &  Decision Tree  &  Chest X-rays  &  1000  & Image Classification & Accuracy: 98; F1: 97.9; AUC: 99; Sensitivity: 98; Precision: 98 \\ \\
+\citet{Mohanty.2021}  &  COVID-19   &  Grasshopper based KELM  &  Chest X-rays  &  5144  & Image Classification & Accuracy: 100; F1: 100; AUC: 100; Sensitivity: 100; Specificity: 100; Precision: 100 \\ \\
+\citet{Pandit.2021}  &  COVID-19  &  VGG-16  &  Chest X-rays  &  1428  & Image Classification & Accuracy: 96; Sensitivity: 92.64; Specificity: 97.27; Precision: - \\ \\
+\citet{Elaziz.2021}  &  COVID-19  &  MobileNetV3 with Aquila Optimizer  &  Chest X-rays and CT scans  &  6432  & Image Classification & Accuracy: 97.4; F1: 97.4; Sensitivity: 97.4; Precision: 97.4 \\ \\
+\citet{Zhang.2021}  &  Pulmonary infectious diseases  &  DL-based AI system  &  CT scans  &  3463  & Classification & Accuracy: 96.1; AUC: 98.8; Sensitivity: 95.9; Specificity: 96.5; Precision: - \\ \\
+\citet{Wang.2021}  &  COVID-19  &  FGCNet  &  Chest CT-scans  &  640  & Image Classification & Accuracy: 96.64; F1: 96.63; Sensitivity: 96.25; Specificity: 97.03; Precision: 97.03 \\ \\
+\citet{Turkoglu.2021}  &  COVID-19  &  MKs-ELM-DNN  &  Chest CT-scans  &  746  & Image Classification & Accuracy: 98.36; F1: 98.25; AUC: 98.36; Sensitivity: 98.28; Specificity: 98.44; Precision: 98.22 \\ \\
+\citet{Ma.2021}  &  COVID-19  &  CNN with Multi-Receptive Field Attention  &  Chest CT Scans  &  2482  & Classification & Accuracy: 95.16; F1: 95.6; AUC: 99.01; Precision: - \\ \\
+\citet{Elakkiya.2021}  &  COVID-19  &  COVID\_SCREENET (Xception + Resnet50 + Mobilenet\_V2 + Densenet121 + Resnet101V2)  &  Chest X-rays  &  7725  & Image Classification & Accuracy: 100; Precision: - \\ \\
+\citet{Zhang.2021}  &  COVID-19  &  COVSeg-NET  &  Lung CT images  &  473  & Image Segmentation & F1: 56.1; Sensitivity: 44.7; Specificity: 99.6; Precision: - \\ \\
+\citet{Hammoudi.2021}  &  COVID-19  &  DenseNet169  &  Chest X-rays  &  5863  & Image Classification & Accuracy: 95.72 \\ \\
+\citet{Kwon.2021}  &  Sepsis  &  CNN  &  ECG  &  46,017  & Classification & AUC: 90.1; Sensitivity: 90.4; Specificity: 77.6; PPV: 6.7; NPV: 99.8 \\ \\
+\citet{Sharifrazi.2021}  &  COVID-19  &  CNN-SVM with Sobel Filter  &  X-ray Images  &  1332  & Image Classification & Accuracy: 99.02; F1: 99.35; AUC: 97.70; Sensitivity: 100; Specificity: 95.23; Precision: 98.70 \\ \\
+\citet{Li.2021mz}  &  COVID-19  &  MINI  &  Thoracic CT Scans  &  -  & Classification & Accuracy: 87.1; F1: 80.6; AUC: 92.8; Sensitivity: 86.6; Specificity: 87.3 \\ \\
+\citet{Li.2021}  &  Malaria  &  DTGCN  &  Microscopic images  &  7456  & Multi-stage Recognition & Accuracy: 98.3; F1: 98.3; Sensitivity: 98.3; Precision: 98.5 \\ \\
+\citet{Tran.2021}  &  COVID-19  &  MILO  &  Nasal swabs  &  226  & Classification & Accuracy: 98.3; Sensitivity: 100; Specificity: 96; Precision: - \\ \\
+\citet{Wang.2021}  &  COVID-19  &  PSCNN  &  COVID and HC Images  &  640  & Image Classification & Accuracy: 95.53; F1: 95.52; Sensitivity: 95.28; Specificity: 95.78; Precision: 95.76 \\ \\
+\citet{Koopaie.2021}  &  Early childhood caries  &  Feed-forward Neural Network  &  Salivary cystatin S levels, demographic data  &  40  & Classification & Accuracy: 90.9; Sensitivity: 100; Specificity: 72.1; Precision: - \\ \\
+\citet{Taresh.2021}  &  COVID-19  &  VGG16  &  Chest X-ray images  &  3886  & Image Classification & Accuracy: 98.72; F1: 97.59; Sensitivity: 98.78; Specificity: 98.70; Precision: 96.43 \\ \\
+\citet{ramos2021using}  &  Dental caries  &  Random Forest  &  Parental survey data  &  182  & Text Classification & Accuracy: 71.0; Sensitivity: 94.0; Specificity: 68.0; Precision: - \\ \\
+\citet{Madaan.2021}  &  COVID-19  &  XCOVNet  &  Chest X-ray images  &  392  & Image Classification & Accuracy: 98.44; F1: 97.94; Sensitivity: 97.44; Precision: 98.45 \\ \\
+\citet{Rajaraman.2022}  &  Pneumonia  &  ResNet-50 Ensemble  &  Chest X-rays  &  261,532  & Object Detection & mAP: 32.72 \\ \\
+\citet{Su.2022} & Not specified & SVC & Fluorescence amplification curves & 600 & Classification & Precision: 99; Recall: 99; Accuracy: 99; F1: 99 \\ \\
+\citet{Farhang-Sardroodi.2022}  &  COVID-19 and Influenza  &  Lasso Regression  &  Synthetic infection data  &  200  & Classification & AUC: 95; Precision: - \\ \\
+\citet{Barshooi.2022}  &  COVID-19  &  DenseNet-201 with Gabor filter  &  Chest X-ray images  &  4560  & Image Classification & Accuracy: 98.5; F1: 98.38; Sensitivity: 97.85; Specificity: 99.07; Precision: 98.91 \\ \\
+\citet{Kumar.2022}  &  COVID-19  &  CNN, U-Net  &  Chest X-rays, cough samples  &  1724  & Image Classification & Accuracy: 98.91; F1: 97,89; Sensitivity: 97.69; Specificity: 96.25; Precision: 96.56 \\ \\
+\citet{Djenouri.2022}  &  Various Infectious Diseases  &  HI2D (CNN, LSTM, Entity Embedding Networks)  &  Raw data, time series, images  &  -  & Image Classification & Accuracy: 98 \\ \\
+\citet{Nijiati.2022}  &  Tuberculosis  &  ResNet  &  Chest X-rays  &  9628  & Image Classification & Accuracy: 96.73; AUC: 99.44; Sensitivity: 95.50; Specificity: 98.05; Precision: - \\ \\
+\citet{jangam2022automatic}  &  COVID-19  &  VGG 19 + ResNet 101 + DenseNet 169 + Wide ResNet 50 2  &  Chest X-rays  &  2541  & Image Classification & Accuracy: 99.75; F1: 99.75; Sensitivity: 100; Precision: 99.5 \\ \\
+\citet{Kannan.2022}  &  COVID-19  &  Fine KNN with Deep Learning Feature Extraction  &  Chest X-rays  &  3600  & Image Classification & Accuracy: 96.48; Sensitivity: 96.67; Specificity: 96.29; Precision: 96.31 \\ \\
+\citet{Hoorali.2022}  &  Anthrax  &  Improved UNet++  &  Microscopic Images  &  456  & Instance Segmentation & Sensitivity: 94.1; Precision: 84.3 \\ \\
+\citet{Kong.2022}  &  COVID-19  &  DenseNet + VGG16 Feature Fusion  &  Chest X-rays  &  6518  & Image Classification & Accuracy: 97.9; F1: 95; Sensitivity: 97.1; Precision: 93.1 \\ \\
+\citet{Lu.2022}  &  Tetanus  &  2D CNN with Channel-wise Attention  &  ECG Signals  &  178  & Classification & Accuracy: 84.0; F1: 79.0; AUC: 84.0; Sensitivity: 82.0; Specificity: 85.0; Precision: 78.0 \\ \\
+\citet{Kaur.2022}  &  COVID-19  &  ResNet50 and Classifier Fusion  &  CT Scans  &  2482  & Classification & Accuracy: 99.38; F1: 99.40; AUC: 99.97; Sensitivity: 99.20; Precision: 99.60 \\ \\
+\citet{Hu.2022}  &  Tuberculosis  &  Multilayer Perceptron Neural Network  &  Plasma Metabolomic Profiles  &  100  & Biomarker Identification & Accuracy: 94.74; Sensitivity: 95.24; Specificity: 97.22; Precision: - \\ \\
+\citet{Islam.2022}  &  COVID-19  &  Ensemble (GNB, SVM, DT, LR, RF) + CNN feature extraction  &  Chest CT scans  &  2482  & Classification & Accuracy: 99.73; F1: 99.73; AUC: 99.73; Sensitivity: 100; Precision: 99.46 \\ \\
+\citet{Hamza.2022}  &  COVID-19  &  CNN-LSTM with Moth Flame Optimization  &  Chest X-ray images  &  5864  & Image Classification & Accuracy: 98.5; F1: 98.35; AUC: 100; Sensitivity: 98.50; Precision: 98.22 \\ \\
+\citet{Basu.2022}  &  COVID-19  &  DenseNet, ResNet, Xception with HS and AHC  &  CT Scans  &  2926  & Classification & Accuracy: 98.87; Precision: - \\ \\
+\citet{Chouat.2022}  &  COVID-19  &  VGGNet-19  &  CT and CXR images  &  1733  & Image Classification & Accuracy: 90.5; F1: 90.5; Sensitivity: 90.3; Precision: 91.5 \\ \\
+\citet{Kanwal.2022}  &  COVID-19  &  SVM with opt-aiNet  &  CT, radiography, and CXR images  &  16520  & Image Classification & Accuracy: 99.01; AUC: 99.1; Precision: - \\ \\
+\citet{Liu.2022}  &  COVID-19  &  DFFCNet  &  Chest X-ray images  &  921  & Image Classification & Accuracy: 99.9; F1: 100; Sensitivity: 99.2; Specificity: 100; Precision: 99.6 \\ \\
+\citet{Jameela.2022}  &  Malaria  &  VGG-19  &  Microscopic blood slide images  &  27558  & Image Classification & Accuracy: 97.2055; Sensitivity: 97.9671; Specificity: 96.4166; Precision: - \\ \\
+\citet{wang2022deep}  &  Various infectious diseases  &  MIDDM  &  Unstructured electronic medical records  &  20620  & Classification & Accuracy: 89.52; Precision: - \\ \\
+\citet{Hosseinzadeh.2022}  &  COVID-19  &  MV-COVIDet  &  Chest X-ray images  &  1092  & Image Classification & Accuracy: 99.82; Precision: - \\ \\
+\citet{Kim.2022}  &  Various infectious diseases  &  CatBoost  &  Survey data  &  1129  & Text Classification & Accuracy: 87.61; F1: 87.71; Precision: - \\ \\
+\citet{Tan.2022}  &  Tuberculosis  &  Customized VGG16-based DNN  &  CT images  &  953  & Image Classification & Accuracy: 90.4; F1: 90.1; AUC: 90.8; Sensitivity: 95.5; Specificity: 86.0; Precision: 85.4 \\ \\
+\citet{Kotei.2022}  &  Tuberculosis  &  Stacked ensemble  &  Chest X-ray images  &  2300  & Image Classification & Accuracy: 98.6; Sensitivity: 98.89; Specificity: 98.70; Precision: - \\ \\
+\citet{Florescu.2022}  &  COVID-19  &  FL VGG-16  &  CT images  &  2230  & Image Classification & Accuracy: 79.32; F1: 78.65; Precision: - \\ \\
+\citet{Singh.2022}  &  COVID-19  &  Ftl-CoV19 (VGG16)  &  Chest X-ray  &  2762  & Classification & Accuracy: 98.82; F1: 99; Sensitivity: 98; Precision: 100 \\ \\
+\citet{Moura.2022}  &  COVID-19, Pneumonia  &  VGG-16  &  Chest X-ray  &  6070  & Classification & Accuracy: 97.06; F1: 95.80; Sensitivity: 96.60; Precision: 98.40 \\ \\
+\citet{Sahoo.2022}  &  COVID-19  &  COVIDCon  &  Chest CT-scans  &  82,767  & Image Classification & Accuracy: 99.13; Precision: - \\ \\
+\citet{goh2022predicting}  &  Bacteremia in sepsis patients  &  Random Forest  &  ED data  &  40395  & Classification & AUC: 83.5; Sensitivity: 66.1; Specificity: 63.9; Precision: - \\ \\
+\citet{jhutty2022predicting}  &  Influenza A  &  FNN, GBRT, LR  &  Hematological data  &  -  & Regression & MSE: 7.53, $R^2$: 0.18, AIC: -0.22 \\ \\
+\citet{Ullah.2022}  &  Tuberculosis  &  PCA  &  Raman spectra of sputum supernatant  &  112  & Classification & Accuracy: 97; F1: 95.33; Sensitivity: 97.67; Precision: 93.33 \\ \\
+\citet{Barbieri.2022}  &  Leprosy  &  Random Forest  &  Patient information  &  222  & Classification & Accuracy: 95; AUC: 98.74; Sensitivity: 89; Specificity: 100; Precision: - \\ \\
+\citet{Wong.2022}  &  Tuberculosis  &  TB-Net  &  Chest X-rays  &  6939  & Image Classification & Accuracy: 99.86; Sensitivity: 100; Specificity: 99.70; Precision: - \\ \\
+\citet{Mehboob.2022}  &  COVID-19  &  Vision Transformer  &  CT images  &  19,685  & Image Classification & Accuracy: 99.7; AUC: 99.7; Precision: - \\ \\
+\citet{Nafisah.2022}  &  Tuberculosis  &  EfficientNetB3  &  Chest X-rays  &  800  & Image Classification & Accuracy: 99.1; F1: 98.8; AUC: 99.9; Sensitivity: 98.8; Specificity: 99.2; Precision: 99.2 \\ \\
+\citet{Kathamuthu.2023}  &  COVID-19  &  VGG16  &  CT Images  &  2481  & Image Classification & Accuracy: 98; Precision: - \\ \\
+\citet{Chen.2023}  &  Deep Neck Infection  &  k-NN  &  Clinical and CT parameters  &  380  & Classification & Accuracy: 82.11; Sensitivity: 41.67; Specificity: 87.95; Precision: - \\ \\
+\citet{Alam.2023}  &  COVID-19  &  SSO-GDCFN  &  Biosensor data  &  100,417  & Classification & Accuracy: 99.99; AUC: 88; Sensitivity: 100; Specificity: 95; Precision: 99.98 \\ \\
+\citet{Chakraborty.2023}  &  COVID-19  &  ResNet50V2  &  Chest X-ray images  &  29986  & Image Classification & Accuracy: 97.25; F1: 96.65; Sensitivity: 96.36; Specificity: 97.87; Precision: 96.95 \\ \\
+\citet{Yang.2023}  &  Tuberculosis  &  JF CXR-1  &  Chest X-rays  &  1165  & Image Classification & Sensitivity: 79.3; Specificity: 90.5; Precision: - \\ \\
+\citet{Almufareh.2023}  &  Monkeypox  &  MobileNet V2, Inception V3  &  Skin Lesion Images  &  228  & Image Classification & Accuracy: 93; F1: 94; Sensitivity: 88; Specificity: 100; Precision: - \\ \\
+\citet{Forrest.2023}  &  Lyme Disease  &  Random Forest  &  Lipid, Metabolite, Blood Count Measurements  &  1,019,175  & Classification & AUC: 80; Sensitivity: 75; Specificity: 74; Precision: - \\ \\
+\citet{Kumar.2023}  &  COVID-19  &  VGG16, VGG19  &  Chest X-ray images  &  5184  & Image Classification & Accuracy: 99.45; F1: 91; Sensitivity: 86; Specificity: 99.9; Precision: 96.62 \\ \\
+\citet{Ozsahin.2023}  &  Monkeypox, Chickenpox  &  CNN  &  Skin Lesion Images  &  20,000  & Image Classification & Accuracy: 99.60; F1: 99; Sensitivity: 99; Precision: 99 \\ \\
+\citet{Saboo.2023}  &  Pneumonia  &  VGG-19  &  Pediatric Chest X-rays  &  5863  & Image Classification & Accuracy: 87.9; AUC: 94.2; Precision: - \\ \\
+\citet{Singh.2023}  &  COVID-19  &  CNN with ResNet50 configuration  &  Chest X-ray images  &  16756  & Image Classification & Accuracy: 92.4; Precision: 96.73 \\ \\
+\citet{Goswami.2023}  &  Tuberculosis  &  CNN  &  Chest X-ray images  &  1196  & Image Classification & Accuracy: 94; F1: 94.1; AUC: 93.4; Sensitivity: 96.85; Specificity: 91.49; Precision: 94.1 \\ \\
+\citet{Ukwuoma.2023}  &  COVID-19  &  DenseNet, VGG-16, InceptionV3  &  Chest X-ray images  &  20965  & Image Classification & Accuracy: 98; F1: 96.03; AUC: 97.34; Sensitivity: 96.01; Specificity: 98.67; Precision: 96.2 \\ \\
+\citet{Gupta.2023}  &  COVID-19  &  DarkNet19  &  CT-scan images  &  2482  & Image Classification & Accuracy: 98.91; F1: 99; AUC: 99.89; Sensitivity: 98.96; Specificity: 98.86; Precision: 98.88 \\ \\
+\citet{Lo.2023}  &  Septic arthritis  &  Vision Transformer  &  Ultrasound images (GS and PD)  &  278  & Image Classification & Accuracy: 92; AUC: 92; Sensitivity: 72; Specificity: 98; Precision: - \\ \\
+\citet{Adhikari.2023}  &  COVID-19  &  BoNN-enabled DTL  &  Wearable sensor data  &  2000000  & Classification & Accuracy: 99.8; Sensitivity: 99; Precision: 99 \\ \\
+\citet{Deb.2023}  &  Common Cold  &  MFCC + LPC + SMOTE–Tomek links + DNN  &  Speech Signals  &  28,652  & Classification & Sensitivity: 67.71; Precision: - \\ \\
+\citet{Wang.2023}  &  Pneumonia  &  MobileNet with Graph Reasoning  &  X-ray Images  &  11,140  & Image Classification & Accuracy: 89.1; F1: 90; Sensitivity: 91; Precision: 88.8 \\ \\
+\citet{Habgood-Coote.2023}  &  Various Pediatric Diseases  &  Multi-class ML  &  Blood RNA Transcripts  &  1212  & Classification & - \\ \\
+\citet{Redie.2023}  &  COVID-19  &  Modified DarkCovidNet  &  Chest X-ray images  &  10000  & Image Classification & Accuracy: 99.53; F1: 98.8; Sensitivity: 98; Specificity: 100; Precision: 100 \\ \\
+\citet{Ye.2023}  &  Bone and Joint Tuberculosis vs. Tuberculosis  &  Logistic Regression, LASSO Regression, Random Forest  &  Blood Samples  &  1667  & Classification & AUC: 64.35779; Precision: - \\ \\
+\citet{Ahamed.2023}  &  COVID-19  &  Modified ResNet50V2  &  Chest X-ray images  &  2293  & Image Classification & Accuracy: 98.26; F1: 98.3; Sensitivity: 98.4; Precision: 98.4 \\ \\
+\citet{Reddy.2023}  &  COVID-19  &  Ensemble Deep Honey Architecture  &  Chest CT-scans and Chest X-ray images  &  241,213  & Image Classification & Accuracy: 99; F1: 98.5; AUC: 98; Sensitivity: 98.4; Specificity: 98.26; Precision: 99.3 \\ \\
+\citet{Chowdhury.2023}  &  COVID-19  &  Xception  &  Chest X-ray images  &  1823  & Image Classification & Accuracy: 99.59; F1: 99.55; Sensitivity: 99.11; Precision: 100 \\ \\
+\citet{Podder.2023}  &  COVID-19 and Pneumonia  &  LDDNet  &  CT Scans and X-ray Images  &  1043  & Image Classification & Accuracy: 99.36; F1: 99; AUC: 99.98; Sensitivity: 98; Precision: 100 \\ \\
+\citet{Siłka.2023}  &  Malaria  &  CNN  &  Blood Smears  &  1364  & Classification & Accuracy: 99.68; Precision: - \\ \\
+\citet{Awais.2023}  &  COVID-19  &  MCMBO-ODEC  &  Cough Audio Signals  &  2800  & Classification & Accuracy: 97.9292; F1: 98.14844; Sensitivity: 97.94694; Specificity: 97.9066; Precision: 98.35078 \\ \\
+\citet{Panero.2023}  &  Hepatitis C  &  NLP EHRead®  &  Electronic Health Records  &  2,440,358  & Classification & Recall: 72.6-100; Precision: 86.1-100; F1: 79.2-100 \\ \\
+\citet{Kaushik.2023}  &  COVID-19  &  VGG-16 + VGG-19 + CNN  &  Chest X-ray Images  &  28,384  & Image Classification & Accuracy: 81.42; F1: 80.12; Sensitivity: 86.15; Precision: 74.88 \\ \\
+\citet{Shiaelis.2023}  &  Various Viruses  &  CNN  &  Single-Particle Imaging  &  51  & Classification & Accuracy: 98.0; Sensitivity: 97.5; Precision: 100 \\
+\midrule
+\multicolumn{7}{c}{\textbf{Prognostics}} \\
+\midrule
+\citet{Hussain.2019} & Tuberculosis & Random Forest & Patient records & 4213 & Classification & Accuracy: 76.32; Precision: 67.55; Sensitivity: 62.31; Specificity: 83.88 \\ \\
+\citet{Hao.2020} & COVID-19 & Random Forest & Clinical and laboratory data & 2566 & Classification & AUC: 88.2-80.9; F1: 91.2-78.8 \\ \\
+\citet{zoabi2021predicting}  &  Bloodstream infections  &  LightGBM  &  EMRs (demographics, blood tests, medical history)  &  7889  & Classification & Accuracy: 81; Sensitivity: 82; Precision: - \\ \\
+\citet{aldhoayan2022machine}  &  Community-acquired pneumonia  &  Logistic regression  &  Patient data  &  8690  & Classification & Accuracy: 90; F1: 95; Sensitivity: 0; Precision: 90 \\ \\
+\citet{Villagrana-Bañuelos.2022} & COVID-19 & Random Forest & Clinical and metabolic data & 154 & Classification & Accuracy: 93; AUC: 88; Sensitivity: 100; Specificity: 91 \\ \\
+\citet{modelli2022development}  &  COVID-19 in kidney transplant recipients  &  Elastic Net  &  Demographics, comorbidities, immunosuppression, COVID-19 symptoms  &  1379  & Elastic Net regression & AUC: 76.7; Sensitivity: 72; Precision: 63 \\ \\
+\citet{chiu2022machine}  &  Influenza-like illness  &  DNN  &  Age, gender, comorbidities  &  83227  & Text classification & Accuracy: 62.800; F1: 45.2; AUC: 77.2; Sensitivity: 84.995; Specificity: 55.563; Precision: - \\ \\
+
+\textbf{Author(s) and year} & \textbf{Target disease} & \textbf{Model} & \textbf{Input} & \textbf{Dataset size} & \textbf{Task} & \textbf{Location} & \textbf{Period} &\textbf{Performance Metrics} \\
+\midrule
+\endfirsthead
+
+\multicolumn{9}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+
+\textbf{Author(s) and year} & \textbf{Target disease} & \textbf{Model} & \textbf{Input} & \textbf{Dataset size} & \textbf{Task} & \textbf{Location} & \textbf{Period} & \textbf{Performance Metrics} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{9}{r}{{Continued on next page}} \\ 
+\endfoot
+
+\bottomrule
+\endlastfoot
+\multicolumn{9}{c}{\textbf{Modelling and forecasting}} \\
+\midrule
+\citet{Zhao.2015} & Influenza, Ebola & SimNest & Twitter data & 77,101,744 & Predictive modelling & United States (CT, DC, MA, MD, VA) & 1-1-2011 - 15-4-2015 & MSE: 0.0005 \\
+
+\citet{Tessmer.2018} & Respiratory viruses & CNN & Epidemiological data & 100,000 & Parameter estimation & - & - & $R_0$: 2.84\\
+
+\citet{Chae.2018} & Chickenpox, Scarlet Fever, Malaria & DNN & Search queries, social media, weather data & 576 & Time series prediction & South Korea & 1-1-2016 - 29-7-2017 & RMSE: 72.8215-34.4347 \\
+
+\citet{Chen.2018} & Chickenpox, HFMD, Dengue, Malaria & LASSO Regression & Climatic variables, Historical disease data & - & Time series prediction & Japan, Singapore, Taiwan, Thailand & 2003-2013 & MAPE: 0.09-0.31 \\
+
+\citet{Wang.2019} & Malaria & Ensemble (ARIMA, STL+ARIMA, BP-ANN, LSTM) & Malaria incidence and meteorological data & 84 & Time series prediction & Yunnan, China & 2011-2017 & RMSE: 6.810; MASE: 0.224; MAD: 4.625 \\
+
+\citet{Forna.2019} & Ebola & Boosted Regression Trees & Case reports & 33,338 & Outcome prediction & West Africa & 2013-2016 & Sensitivity: 69.7; Specificity: 69.8; PCC: 69.9; AUC: 76.0 \\
+
+\citet{Chitanvis.2019} & Measles, Cholera, Dengue, Yellow Fever & Random forest & Disease incidence data & - & France, DR Congo, South Korea, Vietnam, Angola, Senegal, Brazil, Argentina & Predictive modelling & 1986-2017 & Precision: 64.6-71.0; Recall: 88.25-90.64, F1: 65.67-80.51 \\
+
+\citet{Erraguntla.2019} & Influenza-like Illness & FIDA & Biosurveillance data, social media, environmental data & - & Disease prediction and management & US & 2002-2011 & $R^2$: 90 \\
+
+\citet{Lu.2019} & Influenza & ARGONet & Google searches, EHR, historical trends & - & Surveillance & USA & 28-9-2014 - 14-5-2017 & - \\
+
+\citet{Jia.2019} & Typhoid, HFRS, Mumps, Scarlatina, Malaria, Dysentery, Pertussis, Conjunctivitis, Tuberculosis, Diarrhea & LSTM & Search data, morbidity, mortality, seasonal & - & Time Series Prediction & China & 2012-2016 & MAPE: 4.32-20.84; RMSE: 0.003-1.43; R2: -0.254-0.949 \\
+
+\citet{Tadesse.2020} & HFMD and Tetanus & SVM, LSTM & ECG and PPG Waveforms & 84 & Multi-class Classification & Vietnam & - & Accuracy: 70.9; F1: 55.7; Sensitivity: 55.9; Specificity: 78; Precision: 60.6 \\
+
+\citet{Yadav.2020} & COVID-19 & Support Vector Regression & Case data, Weather conditions & - & Predictive Modelling & China, US, Italy, South Korea, India & 22-01-2020 - 24-04-2020 & Accuracy: 98.8 \\
+
+\citet{Gónzalez-Bandala.2020} & ARI & FFNN, SoS & Epidemiological reports, Internet search trends & - & Time series prediction & Mexico & 2015-2019 & CORR: 0.88; RMSPE: 11.27; MAPE: 30.9 \\
+
+\citet{Leavitt.2020} & Tuberculosis & Naive Bayes & Clinical, demographic, geographical, genetic data & 86 & Probability estimation & Hamburg, Germany & - & AUC: 95 \\
+
+\citet{Ohi.2020} & COVID-19 & DDQN & Population dynamics, economic contributions, state transitions & 10,000 & Reinforcement learning & - & - & - \\
+
+\citet{Hawas.2020} & COVID-19 & RNN (GRU) & COVID-19 infection numbers & - & Time-series prediction & Brazil & 22-01-2020 to 20-06-2020 & Accuracy: 63.74 \\
+
+\citet{Miao.2020} & SFTS & Boosted regression tree & Environmental data, vector distribution & 13,257 & Risk mapping & China, South Korea, Japan & 01-2010 - 12-2018 & AUC: 97.1 \\ 
+
+\citet{Guo.2020} & Hepatitis E & LSTM & Monthly incidence and cases number & - & Time series prediction & Shandong, China & Jan 2005 - Dec 2017 & RMSE: 0.01; MAPE: 15.08; MAE: 0.011 \\
+
+\citet{Haghshenas.2020} & COVID-19 & ANN (PSO) & Climate and urban parameters & - & Predictive modelling and regression & Italy (Lombardy, Veneto, Piedmont, Emilia-Romagna) & 14-02-2020 - 24-03-2020 & Best cost: 0.00133 \\
+
+\citet{Clark.2020} & Q fever & Markov Random Fields, LASSO & Q fever notifications & 1380 & Graphical modelling, logistic regression & Queensland, AU & 1-7-1984 to 31-12-2017 & Accuracy: 66 \\
+
+\cite{Lanera.2020} & Varicella Zoster & LogitBoost & Textual ambulatory records & 1230355 & Text classification & Italy & 2004-2014 & Sensitivity: 79.2; PPV: 63.1; NPV: 98.8; Specificity: 96.9; F1: 68.5 \\
+
+\citet{Zhao.2021} & Bronchopneumonia & LSTM-FC & Environmental factors, Prevalence rates & - & Time series forecasting & Chengdu, China & 2017 & MSE: 0.0051; MAE: 0.053; R: 0.846 \\
+
+\citet{Poonawala-Lohani.2021} & ILI & Reach & Sentinel ILI data, Weather data & - & Time Series Forecasting & Auckland, New Zealand & 2015-2018 & RMSE: 4.12-4.62; MAE: 3.26-3.61 \\
+
+\citet{Adiga.2021} & COVID-19 & Bayesian Ensemble & Case data & - & Time series forecasting & USA & 2020-08 to 2021-01 & - \\
+
+\citet{Meng.2021} & HFMD & XGBoost & Meteorological, social factors & - & Time series forecasting & China & 2009-2017 & MSE: 70.69-87.72; EVS: 0.5572-0.5613 \\
+
+\citet{Yan.2021} & FUO & LightGBM & Clinical data & 527 & Classification & Chongqing, China & 01-2012 - 08-2021 & Micro-F1: 75.8 \\
+
+\citet{Forna.2021} & Ebola & BRT, ANN & Simulated outbreak data & 12,049 & CFR estimation & - & 2013-2016 & AUC: 53-68 \\
+
+\citet{Hyman.2021} & COVID-19 & Holt-Winters, MLR & Confirmed cases and deaths, Economic data & - & Time-series forecasting, Regression & Global & 2020-2021 & $R^2$: 99.3 \\
+
+\citet{Kao.2021} & COVID-19 & Convolutional autoencoder with LSTM & Epidemic data & 366,607 & Time-series forecasting & Contiguous United States & 1-1-2020 - 6-4-2020 & MSE: 1.664; PSNR: 55.699; SSIM: 0.99 \\
+
+\citet{Ketu.2021} & COVID-19 & Enhanced MTGP & WHO health bulletins & - & Time-series forecasting & Worldwide & 31-12-2019 - 25-6-2020 & MAPE: 1.16; RMSE: 122.97 \\
+
+\citet{McCoy.2021} & COVID-19 & Ensemble (LG, GBDT, ENR, XGB, DT) & County-level demographic, health, environmental data & - & Risk factor analysis & US counties & - & $R^2$: 0.57-0.87 \\
+
+\citet{Cho.2021} & SFTS & CMML and RMML & Demographic, geographic, meteorological data & 336 & Classification, regression & South Korea & 2016-2019 & $R^2$: 75 \\
+
+\citet{Liu.2021} & Dengue & MLP & Street-view images, case data, meteorological data, population data & 167 & Time series forecasting & Guangzhou, China & 26-1-2015 - 22-9-2019 & Pearson's r: 0.793-0.453; Hit Rate: 50-60 \\
+
+\citet{Yedinak.2021} & HIV, HCV & LASSO, Elastic Net, RIDGE & Neighborhood data & 240 & Regression & Rhode Island, USA & 09-2018 - 11-2019 & MSE: 1.37 \\
+
+\citet{Garcés-Jiménez.2021} & Nursing home infections & Random Forest & Clinical data & 443 & Classification & Madrid & 24-03-2018 - 11-03-2019 & - \\
+
+\citet{xu2021risk}  &  COVID-19  &  Decision Tree  &  Clinical data  &  659  &  Binary classification  & Accuracy: 97; F1: 93; AUC: 99; Sensitivity: 100; Specificity: 96; Precision: - \\
+
+\citet{Niraula.2022} & COVID-19 & Bayesian Neural Network & COVID-19 case data, Human mobility data & 245 & Spatio-temporal prediction & Castilla-Leon, Spain & 01-03-2020 - 05-02-2021 & RMSE: 5.51; DIC: 354601.13; WAIC:  355510.1; CPO: -2.17 \\
+
+\citet{Dixon.2022} & Campylobacteriosis, Q-fever, Typhoid & Alt-XGB & Disease case counts & 357,754 & Time series forecasting & Australia, Israel, US, Japan, Sweden, Norway & 2009-2017 & MAE: 22.08-0.17; RMSE: 44.54-0.57; Deviance: 20.33-0.3 \\
+
+\citet{Yang.2022} & Tuberculosis & ARIMA-LSTM & Epidemiological data & - & Time Series Forecasting & Liaoning Province, China & 2005-2017 & RMSE: 0.4659-0.3753; MAE: 0.3206-0.2619; MAPE: 6.9664-6.1742; sMAPE: 7.4156-6.4240 \\ 
+
+\citet{Garg.2022} & COVID-19 & MSDTL & Epidemiological and geographical data & - & Time Series Forecasting & Global & 26-01-2020 - 18-10-2020 & MAPE: 65-85; $R^2$: 0.84 \\
+
+\citet{Wang.2022} & Influenza-like illness & STN (Spatial Transmission Network) & ILI data & - & Time series forecasting & Sichuan Province, China & 2010 - 2017 & MAPE: 31.134 \\
+
+\citet{Farooq.2022} & West Nile virus & XGBoost with XAI & Eco-climatic data & - & Classification and time series forecasting & Europe & 2010 - 2019 & AUC: 93-97 \\
+
+\citet{Safavi.2022} & Lumpy skin disease & ANN with ExtraTreesClassifier & LSD outbreak data, Meteorological, Animal density, Land cover, Elevation & 30,039 & Classification & Africa, Asia, Europe & 2011 - 2021 & AUC: 97; F1: 94; Accuracy: 97; Precision: 88; Recall: 100 \\
+
+\citet{Ismail.2022} & COVID-19 & ARIMA, LSTM, Bi-LSTM, HLT, LT, QT, DT & Confirmed cases, Recovered cases, Deaths & - & Time series forecasting & 15 countries & 22-01-2020 - 08-01-2022 & MAPE: 7.87; RMSE: 665052.14 \\
+
+\citet{Lau.2022} & Measles & LASSO, TSIR & Historical incidence data & - & Time series forecasting & England, Wales, US & 1932-1994 & - \\
+
+\citet{Feng.2022} & COVID-19 & SEIR-LSTM & Epidemiological data & - & Time series forecasting & USA & 15-4-2020 - 31-12-2020 & RMSE: 125023.1652022; MAPE: 0.0122529; $R^2$: 0.9112820 \\
+
+\citet{Xia.2022} & Hepatitis & LSTM & Case data & - & Forecasting & China & 2005-2018 & MAE: $1.24 \times 10^{-7}$ - $3.84 \times 10^{-6}$; MSE: $2.31 \times 10^{-14}$ to $3.08 \times 10^{-11}$; MAPE: 4.9881 to 16.6552 \\
+
+\citet{Jang.2022} & Multiple & Seq2Seq & Internet-Sourced Data (News, SNS, Searches) & 234,591 cases, 192,349 news articles, 37,294 tweets & Time series forecasting & South Korea & 8-4-2018 - 8-3-2020 & SIM: 0.11-0.29, PCC: 0.36-0.72; RMSE: 0.24-0.21 \\
+
+\citet{Wang.2022} & Various & MSRD Neural Network & Hospital data, climate data, social factors & 110,000 & Early warning & China & 2012-2020 & MAE: 1.3782-0.6928 \\
+
+\citet{Roster.2022} & COVID-19, Zika, Influenza, Dengue & NN, RF, TrAdaBoost & Weekly case reports & 2013-2021 & Time series forecasting & Brazil & - & - \\
+
+\citet{Han.2022} & COVID-19 & GBDT & Environmental and social data & 45,876 & Classification, regression & China & 10-1-2020 - 11-6-2020 & Accuracy: 91.91; Precision: 95.01; Recall: 89.44; MSE: 0.415; $R^2$: 0.778 \\
+
+\citet{Mayer.2022} & Invasive Candidiasis & Random Forest & Electronic Health Records & 116,725 & Risk Factor Identification & United States & 2009-2017 & - \\
+
+\citet{Tiwari.2020} & COVID-19 & Naïve Bayes & Case data & - & Time series prediction & Global & 22-1-2020 - 19-5-2020 & MAE: 488806.7492, MSE: 400919367451.7439 \\
+
+\citet{Kumaran.2022} & COVID-19 & Random Forest & Electronic health records & 140,182 & Risk factor identification & Alberta, Canada & 5-3-2020 to 31-5-2021 & Accuracy: 94; AUC: 83 \\
+
+\citet{Shen.2022} & Human Brucellosis & ConvLSTM & Case data, Vector data of European region, Impact factor data & - & Spatial-temporal distribution prediction & Europe & 2008-2018 & RMSE: 1.73 \\
+
+\citet{Verma.2022} & COVID-19 & Hybrid CNN+LSTM & Daily case data & - & Time series prediction & India (Maharashtra, Kerala, Karnataka, Tamil Nadu) & 30-1-2020 - 10-7-2021 & RMSE: 4916.03-4431.45; MAPE: 9.07-7.57 \\
+
+\citet{Assad.2023} & COVID-19 & NNETAR & Case data & - & Time series forecasting & Brazil, Italy, USA & 2020-2021 & RMSE: 500.8-2.1 \\
+
+\citet{Shonchoy.2023} & COVID-19 & Random Forest & National statistics, COVID-19 data & - & Time series forecasting, Classification & South Asia (India, Pakistan, Bangladesh) & 2020-2022 & AUC: 84-97; Sensitivity: 74-90; Specificity: 74-90; Accuracy: 78-91 \\
+
+\citet{Poirier.2023} & Gastroenteritis & AR(52) & Web search trends, EHR data & 1,335,347 & Time series forecasting & France (National, Brittany) & 01-05-2014 - 28-02-2018 & PCC: 0.895-0.942; RMSE: 22.3-15.47 \\
+
+\citet{Morbey.2023} & Respiratory syncytial virus & Generalised Linear Model with Elastic Net & NHS 111 cough calls & 1,060,624 & Time series forecasting & England & 28-09-2013 to 30-06-2021 & MPE: 0.052 \\
+
+\citet{Grover.2023} & Schistosomiasis & Random Forest & Environmental data, Snail survey data & 283 & Predictive modelling & Sichuan Province, China & 2016 & Accuracy: 88.7; AUC: 79.8; Sensitivity: 50; Specificity: 95.1; PPV: 62.5; NPV: 92.1 \\
+
+\citet{Ru.2023} & Measles & XGBoost & Public health data & 5745 & Predictive modelling & United States & 2014-2019 & AUROC: 92.6; AUPRC: 52.2; F2 score: 60.1; Sensitivity: 73.5; Specificity: 95.3; PPV:  34.8 \\
+
+\citet{Wang.2023btf} & COVID-19 & LSTM & Public health data & - & Modelling & Hubei, China & 20-01-2020 to 31-03-2020 & RMSE: 34.63-75.42 \\
+
+\citet{Bayliss.2023} & Salmonella Enteritidis & Hierarchical Machine Learning & Genomic data & 2313 & Genome classification & Global & 2014-2019 & Macro F1: 66.1-95.4 \\
+
+\midrule
+\multicolumn{9}{c}{\textbf{Monitoring and outbreak detection}} \\
+\midrule
+
+\citet{Zhang.2009} & Foot-and-mouth disease & SVM & Online news articles & 830,000 & Text classification & - & 6-10-2004 - 20-1-2007 & Accuracy: 77.04; F1: 77.08; Precision: 77.10 \\
+
+\citet{Torii.2011} & Emerging epidemics & Naïve Bayes & Online news articles & 298 & Text classification & South Asia & - & AUC: 84.1 \\
+
+\citet{Silva.2013} & Influenza-like illness & GUARDIAN & Patient data & 1122 & Text classification & - & 1-11-2009 - 7-11-2009 & Accuracy: 97.1; Sensitivity: 95.5; Specificity: 97.6, PPV: 93.2; NPV: 98.4 \\
+
+\citet{Cooper.2015} & Influenza & Bayesian framework & Clinical reports & - & Text classification & Allegheny County, Pennsylvania & 1-6-2009 - 31-12-2009 & PP: 99.7; MRE: 0.063; MAE: 2.5; FPR: 0.00 \\
+
+\citet{Nsoesie.2016} & Dengue & Naive Bayes & Twitter data & 14,611 & Text classification & Brazil & 10-2012 - 12-2014 & Accuracy: 86.22; Sensitivity: 75.53; Precision: 81.20; TNR: 91.48 \\
+
+\citet{Lim.2017} & Latent infectious diseases & SentiStrength & EMRs, Twitter data & 104, 37,599 & Unsupervised sentiment analysis & - & 8-2012 - 5-2013 & F1: 72.4; Sensitivity: 68.0; Precision: 77.3; NPV: 9.8\\
+
+\citet{Hardjojo.2018} & Infectious diseases & CHESS & Primary care EMRs & 1680 & Information extraction & Singapore & 2009 - 2014 & Precision: 96.0; Recall: 93.1; Accuracy: 97.2 \\
+
+\citet{Pourghasemi.2020} & COVID-19 & SVM, ARIMA & GIS data, case reports & - & Predictive modelling & Fars Province, Iran & 25-2-2020 - 10-6-2020 & AUC: 78.6-86.8 \\
+
+\citet{Kim.2020} & Infectious Diseases & BiLSTM & Online documents & 2864 & Text classification & - & - & Accuracy: 92.9; Precision: 92.9; Recall: 92.8; F1: 92.9; AUC: 97.06 \\
+
+\citet{Shan.2020} & Flu & LSTM & Social media data & 15,301 & Sentiment analysis & China & 2016-2017 & Accuracy: 92.6 \\
+
+\citet{Shen.2020} & COVID-19 & Random Forest & Weibo posts & 15,000,000 & Text classification & Mainland China & 1-11-2019 - 31-3-2020 & F1: 88; Precision: 88.5; Accuracy: 88.8; Recall: 88.8 \\
+
+\citet{Peterson.2021} & Various & CRF & Clinical notes & 4584 & Information Extraction & United States & - & Precision: 88.0; Recall: 83.3; F1: 85.6 \\
+
+\citet{Jang.2021} & Various & WBiLSTM-TF-IDF & News articles, SNS, Web search queries & 182,338 & Topic Extraction & Brazil, Canada, England, France, Korea, Mexico & 01-09-2020 - 15-09-2020 & Accuracy: 55-65 \\
+
+\citet{Tallam.2021}  &  Schistosomiasis  &  CNN  &  Snail and Cercariae Images  &  10,600  &  Image classification  & Accuracy: 91.21-99 \\
+
+\citet{Parikh.2021} & Measles, Cholera, Dengue, Yellow Fever & Random Forest & Case counts, Vaccination rates, Public health indicators & - & Classification & Global & - & Precision: 54.11-81; Recall: 82.36-90.64; F1: 65.67-80.51; F2: 75.57-85.46 \\
+
+\citet{Kim.2021} & Various & SSL & Media articles & 115,279 & Classification & 237 regions & 01-01-2019 - 31-12-2019 & Accuracy: 83.8-83.4; ROC: 79.1-80.5; F1: 83.2-80.2 \\
+
+\citet{Jombart.2021} & COVID-19 & ASMODEE & Case data & - & Anomaly detection & Leicester, Blackburn & 01-06-2020 - 10-08-2020 & - \\
+
+\citet{Akbarian.2022} & Lyme disease & Inception-Resnet & Tick images & 12,588 & Image classification & Ontario, Canada & 01-05-2019 - 30-11-2019 & Accuracy: 92.04; ROC-AUC: 98.52; PR-AUC: 96.8 \\
+
+\citet{Raza.2022} & COVID-19 & CO-SE & Research publications & 50,000 & Information retrieval & - & 07-02-2022 - 31-05-2022 & Exact match ratio: 71.45; Semantic answer similarity: 78.55 \\
+
+\citet{lanera2022deep}  &  Varicella-Zoster  &  RNN-GRU  &  Ambulatory records  &  1,227,578  &  Binary classification  & - & 2004-2014 & AUC: 95.30; Precision: - \\
+
+\citet{Kupperman.2022} & HIV & CNN & Genetic data & 271,868 & Classification & - & - & Accuracy: 99; Sensitivity: 92; Specificity: 98 \\
+
+\citet{Zhang.2022} & COVID-19 & BERT, LR & Twitter data & 1,107,994 & Text classification, Linear regression & US & 22-1-2020 - 3-4-2020 & Precision: 96; Recall: 99; F1: 98; Accuracy: 99; $R^2$: 0.976-0.694 \\
+
+\citet{Bashir.2022} & COVID-19 & BiLSTM, CNN, CRF with Transformer-based Embeddings & Scientific articles & 15,000 & Text classification & - & 10-2021 - 03-2022 & Micro F1: 94.78; Macro F1: 95.37 \\
+
+\citet{Jiang.2022} & COVID-19 & Dynamic Graph Neural Network & Social media data (tweets) & 270,000 & Monitoring & USA & From 15-05-2020 & MAE: 913.2-430.01 \\
+
+\citet{Chang.2022} & Dengue & DuBiLSTM with attention & ProMED-mail articles & 129 & Summary generation & Southeast Asia & 1994-2019 & F1: 93; Precision: 97.72; Recall: 95.27 \\
+
+\citet{Raza.2023} & COVID-19 & Transformer, NER, RE & Electronic case reports & 5000 & Named Entity Recognition, Relation Extraction & - & 1-3-2022 - 30-6-2022 & NER F1: 94.94; RE F1: 91.73 \\
+
+\citet{Hutchinson.2023} & Mpox & EPIWATCH & Media reports, press releases, social media & 656 & Data mining & Global & 1-4-2022 to 11-7-2022 & - \\

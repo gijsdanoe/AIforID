@@ -1,0 +1,7 @@
+\citet{Hussain.2019} & Tuberculosis & Random Forest & Patient records & 4,213 & Classification & Accuracy: 76.32; Precision: 67.55; Sensitivity: 62.31; Specificity: 83.88 \\ \\
+\citet{Hao.2020} & COVID-19 & Random Forest & Clinical and laboratory data & 2,566 & Classification & AUC: 88.2-80.9; F1: 91.2-78.8 \\ \\
+\citet{zoabi2021predicting}  & Bloodstream infections &  LightGBM  &  EMRs (demographics, blood tests, medical history)  &  7,889  & Classification & Accuracy: 81; Sensitivity: 82  \\ \\
+\citet{aldhoayan2022machine}  & Community-acquired pneumonia &  Logistic regression  &  Patient data  &  8,690  & Classification & Accuracy: 90; F1: 95; Sensitivity: 0; Precision: 90 \\ \\
+\citet{Villagrana-Bañuelos.2022} & COVID-19 & Random Forest & Clinical and metabolic data & 154 & Classification & Accuracy: 93; AUC: 88; Sensitivity: 100; Specificity: 91 \\ \\
+\citet{modelli2022development}  & COVID-19 &  Elastic Net  &  Demographics, comorbidities, immunosuppression, COVID-19 symptoms  &  1,379  & Elastic Net regression & AUC: 76.7; Sensitivity: 72; Precision: 63 \\ \\
+\citet{chiu2022machine}  & Influenza &  DNN  &  Age, gender, comorbidities  &  83,227  & Text classification & Accuracy: 62.800; F1: 45.2; AUC: 77.2; Sensitivity: 84.995; Specificity: 55.563  \\ \\

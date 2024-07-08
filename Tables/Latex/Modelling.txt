@@ -1,0 +1,32 @@
+\citet{Zhao.2015} & Influenza, Ebola & SimNest & Social media data (Twitter) & 77101,744 & Predictive Modeling & United States (CT, DC, MA, MD, VA) & 2011-01-01 to 2015-04-15 & MSE: 0.0005 \\\\
+\citet{Tessmer.2018} & Respiratory viruses & CNN & Epidemiological data & 100000 & Parameter estimation & - & - & $R_0$: 2.84\\\\
+\citet{Forna.2019} & Ebola & Boosted Regression Trees & Case reports & 33338 & Predictive Modeling & West Africa & 2013 to 2016 & Sensitivity: 69.7; Specificity: 69.8; PCC: 69.9; AUC: 76.0 \\\\
+\citet{Chitanvis.2019} & Measles, Cholera, Dengue, Yellow Fever & Random forest & Disease incidence data & - & Predictive Modeling & France, DR Congo, South Korea, Vietnam, Angola, Senegal, Brazil, Argentina & 1986 to 2017 & Precision: 64.6-71.0; Recall: 88.25-90.64, F1: 65.67-80.51 \\\\
+\citet{Erraguntla.2019} & Influenza-like Illness & FIDA & Biosurveillance data, Social media data, environmental data & - & Predictive Modeling & US & 2002 to 2011 & $R^2$: 90 \\\\
+\citet{Lu.2019} & Influenza & ARGONet & Google searches, Electronic health records, historical trends & - & Nowcasting & USA & 2014-09-28 to 2017-05-14 & - \\\\
+\citet{Tadesse.2020} & HFMD and Tetanus & SVM, LSTM & ECG and PPG Waveforms & 84 & Classification & Vietnam & - & Accuracy: 70.9; F1: 55.7; Sensitivity: 55.9; Specificity: 78; Precision: 60.6 \\\\
+\citet{Yadav.2020} & COVID-19 & Support Vector Regression & Case data, Weather conditions & - & Predictive Modelling & China, US, Italy, South Korea, India & 2020-01-22 to 2020-04-24 & Accuracy: 98.8 \\\\
+\citet{Leavitt.2020} & Tuberculosis & Naive Bayes & Clinical, demographic, geographical, Genomic data & 86 & Probability estimation & Hamburg, Germany & - & AUC: 95 \\\\
+\citet{Ohi.2020} & COVID-19 & DDQN & Population dynamics, economic contributions, state transitions & 10000 & Reinforcement learning & - & - & -  \\\\
+\citet{Miao.2020} & SFTS & Boosted regression tree & Environmental data, vector distribution & 13257 & Risk Assessment & China, South Korea, Japan & 2010-01 - 2018-12 & AUC: 97.1 \\\\
+\citet{Haghshenas.2020} & COVID-19 & ANN (PSO) & Climate and urban parameters & - & Predictive Modeling and regression & Italy (Lombardy, Veneto, Piedmont, Emilia-Romagna) & 2020-02-14 to 2020-03-24 & Best cost: 0.00133 \\\\
+\citet{Clark.2020} & Q Fever & Markov Random Fields, LASSO & Q fever notifications & 1380 & Graphical modelling, logistic regression & Queensland, AU & 1984-07-01 to 2017-12-31 & Accuracy: 66 \\\\
+\cite{Lanera.2020} & Varicella-Zoster & LogitBoost & Textual ambulatory records & 1230,355 & Text classification & Italy & 2004 to 2014 & Sensitivity: 79.2; PPV: 63.1; NPV: 98.8; Specificity: 96.9; F1: 68.5 \\\\
+\citet{Yan.2021} & FUO & LightGBM & Electronic health records & 527 & Classification & Chongqing, China & 2012-01 - 2021-08 & Micro-F1: 75.8 \\\\
+\citet{Forna.2021} & Ebola & BRT, ANN & Simulated outbreak data & 12049 & CFR estimation & - & 2013 to 2016 & AUC: 53-68 \\\\
+\citet{McCoy.2021} & COVID-19 & Ensemble (LG, GBDT, ENR, XGB, DT) & County-level demographic, health, environmental data & - & Risk factor analysis & US counties & - & $R^2$: 0.57-0.87 \\\\
+\citet{Cho.2021} & SFTS & CMML and RMML & Demographic, geographic, meteorological data & 336 & Classification, regression & South Korea & 2016 to 2019 & $R^2$: 75 \\\\
+\citet{Yedinak.2021} & HIV, HCV & LASSO, Elastic Net, RIDGE & Neighborhood data & 240 & Regression & Rhode Island, USA & 2018-09 - 2019-11 & MSE: 1.37 \\\\
+\citet{Garcés-Jiménez.2021} & Nursing home infections & Random Forest & Electronic health records & 443 & Classification & Madrid & 2018-03-24 to 2019-03-11 & - \\\\
+\citet{xu2021risk}  & COVID-19 &  Decision Tree  &  Electronic health records  &  659  &  Risk factor identification & China & - & Accuracy: 97; F1: 93; AUC: 99; Sensitivity: 100; Specificity: 96;  \\\\
+\citet{Niraula.2022} & COVID-19 & Bayesian Neural Network & COVID-19 case data, Human mobility data & 245 & Spatio-temporal prediction & Castilla-Leon, Spain & 2020-03-01 to 2021-02-05 & RMSE: 5.51; DIC: 354601.13; WAIC:  355510.1; CPO: -2.17 \\\\
+\citet{Safavi.2022} & Lumpy skin disease & ANN with ExtraTreesClassifier & LSD outbreak data, Meteorological, Animal density, Land cover, Elevation & 30039 & Classification & Africa, Asia, Europe & 2011 - 2021 & AUC: 97; F1: 94; Accuracy: 97; Precision: 88; Recall: 100 \\\\
+\citet{Wang.2022} & Various & MSRD Neural Network & Hospital data, climate data, social factors & 110000 & Early warning & China & 2012 to 2020 & MAE: 1.3782-0.6928 \\\\
+\citet{Han.2022} & COVID-19 & GBDT & Environmental and social data & 45876 & Classification, regression & China & 2020-01-10 to 2020-06-11 & Accuracy: 91.91; Precision: 95.01; Recall: 89.44; MSE: 0.415; $R^2$: 0.778 \\\\
+\citet{Mayer.2022} & Invasive Candidiasis & Random Forest & Electronic Health Records & 116725 & Risk Factor Identification & United States & 2009 to 2017 & - \\\\
+\citet{Kumaran.2022} & COVID-19 & Random Forest & Electronic health records & 140182 & Risk factor identification & Alberta, Canada & 2020-03-05 to 2021-05-31 & Accuracy: 94; AUC: 83 \\\\
+\citet{Shen.2022} & Human Brucellosis & ConvLSTM & Case data, Vector data of European region, Impact factor data & - & Spatial-temporal distribution prediction & Europe & 2008 to 2018 & RMSE: 1.73 \\\\
+\citet{Grover.2023} & Schistosomiasis & Random Forest & Environmental data, Snail survey data & 283 & Predictive Modeling & Sichuan Province, China & 2016 & Accuracy: 88.7; AUC: 79.8; Sensitivity: 50; Specificity: 95.1; PPV: 62.5; NPV: 92.1 \\\\
+\citet{Ru.2023} & Measles & XGBoost & Public health data & 5745 & Predictive Modeling & United States & 2014 to 2019 & AUROC: 92.6; AUPRC: 52.2; F2 score: 60.1; Sensitivity: 73.5; Specificity: 95.3; PPV:  34.8 \\\\
+\citet{Wang.2023btf} & COVID-19 & LSTM & Public health data & - & Modelling & Hubei, China & 2020-01-20 to 2020-03-31 & RMSE: 34.63-75.42 \\\\
+\citet{Bayliss.2023} & Salmonella Enteritidis & Hierarchical Machine Learning & Genomic data & 2313 & Genome classification & Global & 2014 to 2019 & Macro F1: 66.1-95.4 \\\\

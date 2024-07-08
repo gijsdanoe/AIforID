@@ -1,0 +1,31 @@
+\citet{Chae.2018} & Chickenpox, Scarlet Fever, Malaria & DNN & Search queries, Social media data, Environmental data (weather) & 576 & Time series prediction & South Korea & 2016-01-01 to 2017-07-29 & RMSE: 72.8215-34.4347 \\\\
+\citet{Chen.2018} & Chickenpox, HFMD, Dengue, Malaria & LASSO Regression & Climatic variables, Historical disease data & - & Time series prediction & Japan, Singapore, Taiwan, Thailand & 2003 to 2013 & MAPE: 0.09-0.31 \\\\
+\citet{Wang.2019} & Malaria & Ensemble (ARIMA, STL+ARIMA, BP-ANN, LSTM) & Malaria incidence and meteorological data & 84 & Time series prediction & Yunnan, China & 2011 to 2017 & RMSE: 6.810; MASE: 0.224; MAD: 4.625 \\\\
+\citet{Jia.2019} & Typhoid, HFRS, Mumps, Scarlatina, Malaria, Dysentery, Pertussis, Conjunctivitis, Tuberculosis, Diarrhea & LSTM & Search data, morbidity, mortality, seasonal & - & Time series prediction & China & 2012 to 2016 & MAPE: 4.32-20.84; RMSE: 0.003-1.43; R2: -0.254-0.949 \\\\
+\citet{Gónzalez-Bandala.2020} & ARI & FFNN, SoS & Epidemiological reports, Internet search trends & - & Time series prediction & Mexico & 2015 to 2019 & CORR: 0.88; RMSPE: 11.27; MAPE: 30.9 \\\\
+\citet{Guo.2020} & Hepatitis E & LSTM & Monthly incidence and cases number & - & Time series prediction & Shandong, China & 2005-01 to 2017-12 & RMSE: 0.01; MAPE: 15.08; MAE: 0.011 \\\\
+\citet{Zhao.2021} & Bronchopneumonia & LSTM-FC & Environmental factors, Prevalence rates & - & Time series prediction & Chengdu, China & 2017 & MSE: 0.0051; MAE: 0.053; R: 0.846 \\\\
+\citet{Poonawala-Lohani.2021} & ILI & Reach & Sentinel ILI data, Weather data & - & Time series prediction & Auckland, New Zealand & 2015 to 2018 & RMSE: 4.12-4.62; MAE: 3.26-3.61 \\\\
+\citet{Adiga.2021} & COVID-19 & Bayesian Ensemble & Case data & - & Time series prediction & USA & 2020-08 to 2021-01 & - \\\\
+\citet{Meng.2021} & HFMD & XGBoost & Meteorological, social factors & - & Time series prediction & China & 2009 to 2017 & MSE: 70.69-87.72; EVS: 0.5572-0.5613 \\\\
+\citet{Hyman.2021} & COVID-19 & Holt-Winters, MLR & Confirmed cases and deaths, Economic data & - & Time series prediction & Global & 2020 to 2021 & $R^2$: 99.3 \\\\
+\citet{Kao.2021} & COVID-19 & Convolutional autoencoder with LSTM & Epidemic data & 366607 & Time series prediction & Contiguous United States & 2020-01-01 to 2020-04-06 & MSE: 1.664; PSNR: 55.699; SSIM: 0.99 \\\\
+\citet{Ketu.2021} & COVID-19 & Enhanced MTGP & WHO health bulletins & - & Time series prediction & Global & 2019-12-31 to 2020-06-25 & MAPE: 1.16; RMSE: 122.97 \\\\
+\citet{Liu.2021} & Dengue & MLP & Street-view images, case data, meteorological data, population data & 167 & Time series prediction & Guangzhou, China & 2015-01-26 to 2019-09-22 & Pearson's r: 0.793-0.453; Hit Rate: 50-60 \\\\
+\citet{Dixon.2022} & Campylobacteriosis, Q-fever, Typhoid & Alt-XGB & Disease case counts & 357754 & Time series prediction & Australia, Israel, US, Japan, Sweden, Norway & 2009 to 2017 & MAE: 22.08-0.17; RMSE: 44.54-0.57; Deviance: 20.33-0.3 \\\\
+\citet{Yang.2022} & Tuberculosis & ARIMA-LSTM & Epidemiological data & - & Time series prediction & Liaoning Province, China & 2005 to 2017 & RMSE: 0.4659-0.3753; MAE: 0.3206-0.2619; MAPE: 6.9664-6.1742; sMAPE: 7.4156-6.4240 \\\\
+\citet{Garg.2022} & COVID-19 & MSDTL & Epidemiological and geographical data & - & Time series prediction & Global & 2020-01-26 to 2020-10-18 & MAPE: 65-85; $R^2$: 0.84 \\\\
+\citet{Wang.2022} & Influenza & STN (Spatial Transmission Network) & ILI data & - & Time series prediction & Sichuan Province, China & 2010 - 2017 & MAPE: 31.134 \\\\
+\citet{Farooq.2022} & West Nile virus & XGBoost with XAI & Eco-climatic data & - & Time series prediction & Europe & 2010 - 2019 & AUC: 93-97 \\\\
+\citet{Ismail.2022} & COVID-19 & ARIMA, LSTM, Bi-LSTM, HLT, LT, QT, DT & Confirmed cases, Recovered cases, Deaths & - & Time series prediction & 15 countries & 2020-01-22 to 2022-01-08 & MAPE: 7.87; RMSE: 665052.14 \\\\
+\citet{Lau.2022} & Measles & LASSO, TSIR & Historical incidence data & - & Time series prediction & England, Wales, US & 1932 to 1994 & - \\\\
+\citet{Feng.2022} & COVID-19 & SEIR-LSTM & Epidemiological data & - & Time series prediction & USA & 2020-04-15 to 2020-12-31 & RMSE: 125023.1652022; MAPE: 0.0122529; $R^2$: 0.9112820 \\\\
+\citet{Xia.2022} & Hepatitis & LSTM & Case data & - & Time series prediction & China & 2005 to 2018 & MAE: $1.24 \times 10^{-7}$ - $3.84 \times 10^{-6}$; MSE: $2.31 \times 10^{-14}$ to $3.08 \times 10^{-11}$; MAPE: 4.9881 to 16.6552 \\\\
+\citet{Jang.2022} & Various & Seq2Seq & Internet-Sourced Data (News, SNS, Searches) & 234591 cases, 192349 news articles, 37294 tweets & Time series prediction & South Korea & 2018-04-08 to 2020-03-08 & SIM: 0.11-0.29, PCC: 0.36-0.72; RMSE: 0.24-0.21 \\\\
+\citet{Roster.2022} & COVID-19, Zika, Influenza, Dengue & NN, RF, TrAdaBoost & Weekly Epidemiological data (case reports) & 2013 to 2021 & Time series prediction & Brazil & - & - \\\\
+\citet{Tiwari.2022} & COVID-19 & Naïve Bayes & Case data & - & Time series prediction & Global & 2020-01-22 to 2020-05-19 & MAE: 488806.7492, MSE: 400919367451.7439 \\\\
+\citet{Verma.2022} & COVID-19 & Hybrid CNN+LSTM & Daily case data & - & Time series prediction & India (Maharashtra, Kerala, Karnataka, Tamil Nadu) & 2020-01-30 to 2021-07-10 & RMSE: 4916.4431-03.45; MAPE: 9.07-7.57 \\\\
+\citet{Assad.2023} & COVID-19 & NNETAR & Case data & - & Time series prediction & Brazil, Italy, USA & 2020 to 2021 & RMSE: 500.8-2.1 \\\\
+\citet{Shonchoy.2023} & COVID-19 & Random Forest & National statistics, COVID-19 data & - & Time series prediction & South Asia (India, Pakistan, Bangladesh) & 2020 to 2022 & AUC: 84-97; Sensitivity: 74-90; Specificity: 74-90; Accuracy: 78-91 \\\\
+\citet{Poirier.2023} & Gastroenteritis & AR(52) & Web search trends, Electronic health records & 1335,347 & Time series prediction & France (National, Brittany) & 2014-05-01 to 2018-02-28 & PCC: 0.895-0.942; RMSE: 22.3-15.47 \\\\
+\citet{Morbey.2023} & Respiratory syncytial virus & Generalised Linear Model with Elastic Net & NHS 111 cough calls & 1060,624 & Time series prediction & England & 2013-09-28 to 2021-06-30 & MPE: 0.052 \\\\

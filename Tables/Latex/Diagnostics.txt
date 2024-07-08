@@ -1,0 +1,108 @@
+\citet{Martinez.2015} & Invasive fungal disease & SVM & Chest CT scans free-text reports & 553 & Text Classification & F1: 81.2; Sensitivity: 95.3; Precision: 70.7 \\ \\ 
+\citet{Saybani.2018} & Tuberculosis & SAIRS2 & Clinical tuberculosis dataset & 175 & Classification & Accuracy: 100; AUC: 100; Sensitivity: 100; Specificity: 100\\ \\ 
+\citet{Xiang.2019} & HIV & GCN + RF & Social network data & 378 & Text Classification & Accuracy: 96.6; F1: 94.6\\ \\ 
+\citet{Liu.2020} & COVID-19 & CNN & Chest X-rays & 1,374 & Image Classification & Accuracy: 94.6; AUC: 99; Sensitivity: 94.1; Specificity: 95.1\\ \\ 
+\citet{Wagner.2020} & COVID-19 & SciBERT & Unstructured EHR clinical notes & 77,167 & Text Classification & Accuracy: 94; F1: 96; Sensitivity: 96; Precision: 96\\ \\ 
+\citet{Zhao.2020} & Malaria & VGG16 & Blood cell images & 27,558 & Image Classification & Accuracy: 96; F1: 95.6; AUC: 99.2; Sensitivity: 95.6; Specificity: 96.2 \\ \\ 
+\citet{Ouchicha.2020} & COVID-19 & CVDNet & Chest X-rays & 2,905 & Image Classification & Accuracy: 96.69; F1: 96.68; Sensitivity: 96.84; Precision: 96.72\\ \\ 
+\citet{Elshennawy.2020} & Pneumonia & ResNet152V2 & Chest X-rays & 5,856 & Image Classification & Accuracy: 99.22; F1: 99.44; AUC: 99.77; Sensitivity: 99.44; Precision: 99.43 \\ \\ 
+\citet{Albahli.2020} & COVID-19 & Inception-v3 & Chest X-rays & 108,948 & Image Classification & Accuracy: 89.2\\ \\ 
+\citet{Brunese.2020} & COVID-19 & VGG-16 & Chest X-rays & 6,523 & Image Classification & Accuracy: 96; F1: 94/89; Sensitivity: 96; Specificity: 87\\ \\ 
+\citet{Jeong.2020} & Tuberculous and Viral Meningitis & ANN & Clinical Data & 203 & Classification & Accuracy: 87.7; AUC: 85; Sensitivity: 76.7; Specificity: 92.3 \\ \\ 
+\citet{Meng.2020} & COVID-19 & 3D-DCNN (U-net) & Chest CT scans & 270 & Image Segmentation & IOU: 78.94; Dice score: 63 \\ \\ 
+\citet{Tadesse.2020} & HFMD and Tetanus & SVM & ECG Waveforms & HFMD: 74, Tetanus: 10 & Classification & Accuracy: 70.9; F1: 55.7; Sensitivity: 55.9; Specificity: 78; Precision: 60.6 \\ \\ 
+\citet{Mohammadi.2020} & COVID-19 & MobileNet & Chest X-rays & 348 & Image Classification & Accuracy: 99.1; F1: 99.0; AUC: 99; Sensitivity: 98; Precision: 100 \\ \\ 
+\citet{Abideen.2020} & Tuberculosis & Bayesian CNN & Chest X-rays & 800 & Image Classification & Accuracy: 96.42 \\ \\ 
+\citet{Yang.2021} & COVID-19 & efficientNet-b0 & Chest CT scans & 338 & Image Classification & Accuracy: 98; F1: 98; AUC: 98 \\ \\ 
+\citet{Hamida.2021} & COVID-19 & ResNet152V2 + ResNet101V2 + MobileNetV2 + VGG16 + VGG19 & Chest X-rays & 10,399 & Image Classification & Accuracy: 99.23; Sensitivity: 99.34; Specificity: 99.75; Precision: 98.96 \\ \\ 
+\citet{Almalki.2021} & COVID-19 & CoVIRNet + RF & Chest X-rays & 1,251 & Image Classification & Accuracy: 97.29; F1: 97.32; Sensitivity: 97.02; Precision: 97.74 \\ \\ 
+\citet{Tasci.2021} & Tuberculosis & InceptionV3 + Xception & Chest X-rays & 704 & Image Classification & Accuracy: 97.5; AUC: 98.91 \\ \\ 
+\citet{Arora.2021} & COVID-19 & DenseNet + GoogleNet + SVM + RF + XGB + LR & Chest X-rays & 31,434 & Image Classification & Accuracy: 91.7; F1: 91.7; AUC: 97.6; Sensitivity: 91.6; Specificity: 95.8 \\ \\ 
+\citet{Sharma.2021} & Tuberculosis & Decision Tree & Chest X-rays & 1,000 & Image Classification & Accuracy: 98; F1: 97.9; AUC: 99; Sensitivity: 98; Precision: 98 \\ \\ 
+\citet{Mohanty.2021} & COVID-19 & Grasshopper based KELM & Chest X-rays & 5,144 & Image Classification & Accuracy: 100; F1: 100; AUC: 100; Sensitivity: 100; Specificity: 100; Precision: 100 \\ \\ 
+\citet{Pandit.2021} & COVID-19 & VGG-16 & Chest X-rays & 1,428 & Image Classification & Accuracy: 96; Sensitivity: 92.64; Specificity: 97.27 \\ \\ 
+\citet{Elaziz.2021} & COVID-19 & MobileNetV3 with Aquila Optimizer & Chest X-rays and Chest CT scans & 6,432 & Image Classification & Accuracy: 97.4; F1: 97.4; Sensitivity: 97.4; Precision: 97.4 \\ \\ 
+\citet{Zhang.2021} & Pulmonary infectious diseases & DL-based AI system & Chest CT scans & 3,463 & Classification & Accuracy: 96.1; AUC: 98.8; Sensitivity: 95.9; Specificity: 96.5 \\ \\ 
+\citet{Wang.2021} & COVID-19 & FGCNet & Chest CT scans & 640 & Image Classification & Accuracy: 96.64; F1: 96.63; Sensitivity: 96.25; Specificity: 97.03; Precision: 97.03 \\ \\ 
+\citet{Turkoglu.2021} & COVID-19 & MKs-ELM-DNN & Chest CT scans & 746 & Image Classification & Accuracy: 98.36; F1: 98.25; AUC: 98.36; Sensitivity: 98.28; Specificity: 98.44; Precision: 98.22 \\ \\ 
+\citet{Ma.2021} & COVID-19 & CNN with Multi-Receptive Field Attention & Chest CT scans & 2,482 & Classification & Accuracy: 95.16; F1: 95.6; AUC: 99.01 \\ \\ 
+\citet{Elakkiya.2021} & COVID-19 & COVID\_SCREENET (Xception + Resnet50 + Mobilenet\_V2 + Densenet121 + Resnet101V2) & Chest X-rays & 7,725 & Image Classification & Accuracy: 100 \\ \\ 
+\citet{Zhang.2021} & COVID-19 & COVSeg-NET & Lung CT images & 473 & Image Segmentation & F1: 56.1; Sensitivity: 44.7; Specificity: 99.6 \\ \\ 
+\citet{Hammoudi.2021} & COVID-19 & DenseNet169 & Chest X-rays & 5,863 & Image Classification & Accuracy: 95.72 \\ \\ 
+\citet{Kwon.2021} & Sepsis & CNN & ECG & 46,017 & Classification & AUC: 90.1; Sensitivity: 90.4; Specificity: 77.6; PPV: 6.7; NPV: 99.8 \\ \\ 
+\citet{Sharifrazi.2021} & COVID-19 & CNN-SVM with Sobel Filter & Chest X-rays & 1,332 & Image Classification & Accuracy: 99.02; F1: 99.35; AUC: 97.70; Sensitivity: 100; Specificity: 95.23; Precision: 98.70 \\ \\ 
+\citet{Li.2021mz} & COVID-19 & MINI & Thoracic Chest CT scans & - & Classification & Accuracy: 87.1; F1: 80.6; AUC: 92.8; Sensitivity: 86.6; Specificity: 87.3 \\ \\ 
+\citet{Li.2021} & Malaria & DTGCN & Microscopic images & 7,456 & Multi-stage Recognition & Accuracy: 98.3; F1: 98.3; Sensitivity: 98.3; Precision: 98.5 \\ \\ 
+\citet{Tran.2021} & COVID-19 & MILO & Nasal swabs & 226 & Classification & Accuracy: 98.3; Sensitivity: 100; Specificity: 96 \\ \\ 
+\citet{Wang.2021} & COVID-19 & PSCNN & COVID and HC Images & 640 & Image Classification & Accuracy: 95.53; F1: 95.52; Sensitivity: 95.28; Specificity: 95.78; Precision: 95.76 \\ \\ 
+\citet{Koopaie.2021} & Early childhood caries & Feed-forward Neural Network & Salivary cystatin S levels, demographic data & 40 & Classification & Accuracy: 90.9; Sensitivity: 100; Specificity: 72.1 \\ \\ 
+\citet{Taresh.2021} & COVID-19 & VGG16 & Chest X-rays & 3,886 & Image Classification & Accuracy: 98.72; F1: 97.59; Sensitivity: 98.78; Specificity: 98.70; Precision: 96.43 \\ \\ 
+\citet{ramos2021using} & Dental caries & Random Forest & Parental survey data & 182 & Text Classification & Accuracy: 71.0; Sensitivity: 94.0; Specificity: 68.0 \\ \\ 
+\citet{Madaan.2021} & COVID-19 & XCOVNet & Chest X-rays & 392 & Image Classification & Accuracy: 98.44; F1: 97.94; Sensitivity: 97.44; Precision: 98.45 \\ \\ 
+\citet{Rajaraman.2022} & Pneumonia & ResNet-50 Ensemble & Chest X-rays & 261,532 & Object Detection & mAP: 32.72 \\ \\ 
+\citet{Su.2022} & Various & SVC & Fluorescence amplification curves & 600 & Classification & Precision: 99; Recall: 99; Accuracy: 99; F1: 99 \\ \\ 
+\citet{Farhang-Sardroodi.2022} & COVID-19 and Influenza & Lasso Regression & Synthetic infection data & 200 & Classification & AUC: 95 \\ \\ 
+\citet{Barshooi.2022} & COVID-19 & DenseNet-201 with Gabor filter & Chest X-rays & 4,560 & Image Classification & Accuracy: 98.5; F1: 98.38; Sensitivity: 97.85; Specificity: 99.07; Precision: 98.91 \\ \\ 
+\citet{Kumar.2022} & COVID-19 & CNN, U-Net & Chest X-rays, cough samples & 1,724 & Image Classification & Accuracy: 98.91; F1: 97,89; Sensitivity: 97.69; Specificity: 96.25; Precision: 96.56 \\ \\ 
+\citet{Djenouri.2022} & Various Infectious Diseases & HI2D (CNN, LSTM, Entity Embedding Networks) & Raw data, time series, images & - & Image Classification & Accuracy: 98 \\ \\ 
+\citet{Nijiati.2022} & Tuberculosis & ResNet & Chest X-rays & 9,628 & Image Classification & Accuracy: 96.73; AUC: 99.44; Sensitivity: 95.50; Specificity: 98.05 \\ \\ 
+\citet{jangam2022automatic} & COVID-19 & VGG 19 + ResNet 101 + DenseNet 169 + Wide ResNet 50 2 & Chest X-rays & 2,541 & Image Classification & Accuracy: 99.75; F1: 99.75; Sensitivity: 100; Precision: 99.5 \\ \\ 
+\citet{Kannan.2022} & COVID-19 & Fine KNN with Deep Learning Feature Extraction & Chest X-rays & 3,600 & Image Classification & Accuracy: 96.48; Sensitivity: 96.67; Specificity: 96.29; Precision: 96.31 \\ \\ 
+\citet{Hoorali.2022} & Anthrax & Improved UNet++ & Microscopic Images & 456 & Instance Segmentation & Sensitivity: 94.1; Precision: 84.3 \\ \\ 
+\citet{Kong.2022} & COVID-19 & DenseNet + VGG16 Feature Fusion & Chest X-rays & 6,518 & Image Classification & Accuracy: 97.9; F1: 95; Sensitivity: 97.1; Precision: 93.1 \\ \\ 
+\citet{Lu.2022} & Tetanus & 2D CNN with Channel-wise Attention & ECG Signals & 178 & Classification & Accuracy: 84.0; F1: 79.0; AUC: 84.0; Sensitivity: 82.0; Specificity: 85.0; Precision: 78.0 \\ \\ 
+\citet{Kaur.2022} & COVID-19 & ResNet50 and Classifier Fusion & Chest CT scans & 2,482 & Classification & Accuracy: 99.38; F1: 99.40; AUC: 99.97; Sensitivity: 99.20; Precision: 99.60 \\ \\ 
+\citet{Hu.2022} & Tuberculosis & Multilayer Perceptron Neural Network & Plasma Metabolomic Profiles & 100 & Biomarker Identification & Accuracy: 94.74; Sensitivity: 95.24; Specificity: 97.22 \\ \\ 
+\citet{Islam.2022} & COVID-19 & Ensemble (GNB, SVM, DT, LR, RF) + CNN feature extraction & Chest CT scans & 2,482 & Classification & Accuracy: 99.73; F1: 99.73; AUC: 99.73; Sensitivity: 100; Precision: 99.46 \\ \\ 
+\citet{Hamza.2022} & COVID-19 & CNN-LSTM with Moth Flame Optimization & Chest X-rays & 5,864 & Image Classification & Accuracy: 98.5; F1: 98.35; AUC: 100; Sensitivity: 98.50; Precision: 98.22 \\ \\ 
+\citet{Basu.2022} & COVID-19 & DenseNet, ResNet, Xception with HS and AHC & Chest CT scans & 2,926 & Classification & Accuracy: 98.87 \\ \\ 
+\citet{Chouat.2022} & COVID-19 & VGGNet-19 & Chest CT scans and Chest X-rays & 1,733 & Image Classification & Accuracy: 90.5; F1: 90.5; Sensitivity: 90.3; Precision: 91.5 \\ \\ 
+\citet{Kanwal.2022} & COVID-19 & SVM with opt-aiNet & CT, radiography, and Chest X-rays & 16,520 & Image Classification & Accuracy: 99.01; AUC: 99.1 \\ \\ 
+\citet{Liu.2022} & COVID-19 & DFFCNet & Chest X-rays & 921 & Image Classification & Accuracy: 99.9; F1: 100; Sensitivity: 99.2; Specificity: 100; Precision: 99.6 \\ \\ 
+\citet{Jameela.2022} & Malaria & VGG-19 & Microscopic blood slide images & 27,558 & Image Classification & Accuracy: 97.2055; Sensitivity: 97.9671; Specificity: 96.4166 \\ \\ 
+\citet{wang2022deep} & Various & MIDDM & Unstructured electronic medical records & 20,620 & Classification & Accuracy: 89.52 \\ \\ 
+\citet{Hosseinzadeh.2022} & COVID-19 & MV-COVIDet & Chest X-rays & 1,092 & Image Classification & Accuracy: 99.82 \\ \\ 
+\citet{Kim.2022} & Various & CatBoost & Survey data & 1,129 & Text Classification & Accuracy: 87.61; F1: 87.71 \\ \\ 
+\citet{Tan.2022} & Tuberculosis & Customized VGG16-based DNN & CT images & 953 & Image Classification & Accuracy: 90.4; F1: 90.1; AUC: 90.8; Sensitivity: 95.5; Specificity: 86.0; Precision: 85.4 \\ \\ 
+\citet{Kotei.2022} & Tuberculosis & Stacked ensemble & Chest X-rays & 2,300 & Image Classification & Accuracy: 98.6; Sensitivity: 98.89; Specificity: 98.70 \\ \\ 
+\citet{Florescu.2022} & COVID-19 & FL VGG-16 & CT images & 2,230 & Image Classification & Accuracy: 79.32; F1: 78.65 \\ \\ 
+\citet{Singh.2022} & COVID-19 & Ftl-CoV19 (VGG16) & Chest X-rays & 2,762 & Classification & Accuracy: 98.82; F1: 99; Sensitivity: 98; Precision: 100 \\ \\ 
+\citet{Moura.2022} & COVID-19, Pneumonia & VGG-16 & Chest X-rays & 6,070 & Classification & Accuracy: 97.06; F1: 95.80; Sensitivity: 96.60; Precision: 98.40 \\ \\ 
+\citet{Sahoo.2022} & COVID-19 & COVIDCon & Chest CT scans & 82,767 & Image Classification & Accuracy: 99.13 \\ \\ 
+\citet{goh2022predicting} & Bacteremia in sepsis patients & Random Forest & ED data & 40,395 & Classification & AUC: 83.5; Sensitivity: 66.1; Specificity: 63.9 \\ \\ 
+\citet{jhutty2022predicting} & Influenza A & FNN, GBRT, LR & Hematological data & - & Regression & MSE: 7.53, $R^2$: 0.18, AIC: -0.22 \\ \\ 
+\citet{Ullah.2022} & Tuberculosis & PCA & Raman spectra of sputum supernatant & 112 & Classification & Accuracy: 97; F1: 95.33; Sensitivity: 97.67; Precision: 93.33 \\ \\ 
+\citet{Barbieri.2022} & Leprosy & Random Forest & Patient information & 222 & Classification & Accuracy: 95; AUC: 98.74; Sensitivity: 89; Specificity: 100 \\ \\ 
+\citet{Wong.2022} & Tuberculosis & TB-Net & Chest X-rays & 6,939 & Image Classification & Accuracy: 99.86; Sensitivity: 100; Specificity: 99.70 \\ \\ 
+\citet{Mehboob.2022} & COVID-19 & Vision Transformer & CT images & 19,685 & Image Classification & Accuracy: 99.7; AUC: 99.7 \\ \\ 
+\citet{Nafisah.2022} & Tuberculosis & EfficientNetB3 & Chest X-rays & 800 & Image Classification & Accuracy: 99.1; F1: 98.8; AUC: 99.9; Sensitivity: 98.8; Specificity: 99.2; Precision: 99.2 \\ \\ 
+\citet{Kathamuthu.2023} & COVID-19 & VGG16 & CT Images & 2,481 & Image Classification & Accuracy: 98 \\ \\ 
+\citet{Chen.2023} & Deep Neck Infection & k-NN & Clinical and CT parameters & 380 & Classification & Accuracy: 82.11; Sensitivity: 41.67; Specificity: 87.95 \\ \\ 
+\citet{Alam.2023} & COVID-19 & SSO-GDCFN & Biosensor data & 100,417 & Classification & Accuracy: 99.99; AUC: 88; Sensitivity: 100; Specificity: 95; Precision: 99.98 \\ \\ 
+\citet{Chakraborty.2023} & COVID-19 & ResNet50V2 & Chest X-rays & 29,986 & Image Classification & Accuracy: 97.25; F1: 96.65; Sensitivity: 96.36; Specificity: 97.87; Precision: 96.95 \\ \\ 
+\citet{Yang.2023} & Tuberculosis & JF CXR-1 & Chest X-rays & 1,165 & Image Classification & Sensitivity: 79.3; Specificity: 90.5 \\ \\ 
+\citet{Almufareh.2023} & Monkeypox & MobileNet V2, Inception V3 & Skin Lesion Images & 228 & Image Classification & Accuracy: 93; F1: 94; Sensitivity: 88; Specificity: 100 \\ \\ 
+\citet{Forrest.2023} & Lyme Disease & Random Forest & Lipid, Metabolite, Blood Count Measurements & 1,019,175 & Classification & AUC: 80; Sensitivity: 75; Specificity: 74 \\ \\ 
+\citet{Kumar.2023} & COVID-19 & VGG16, VGG19 & Chest X-rays & 5,184 & Image Classification & Accuracy: 99.45; F1: 91; Sensitivity: 86; Specificity: 99.9; Precision: 96.62 \\ \\ 
+\citet{Ozsahin.2023} & Monkeypox, Chickenpox & CNN & Skin Lesion Images & 20,000 & Image Classification & Accuracy: 99.60; F1: 99; Sensitivity: 99; Precision: 99 \\ \\ 
+\citet{Saboo.2023} & Pneumonia & VGG-19 & Pediatric Chest X-rays & 5,863 & Image Classification & Accuracy: 87.9; AUC: 94.2 \\ \\ 
+\citet{Singh.2023} & COVID-19 & CNN with ResNet50 configuration & Chest X-rays & 16,756 & Image Classification & Accuracy: 92.4; Precision: 96.73 \\ \\ 
+\citet{Goswami.2023} & Tuberculosis & CNN & Chest X-rays & 1,196 & Image Classification & Accuracy: 94; F1: 94.1; AUC: 93.4; Sensitivity: 96.85; Specificity: 91.49; Precision: 94.1 \\ \\ 
+\citet{Ukwuoma.2023} & COVID-19 & DenseNet, VGG-16, InceptionV3 & Chest X-rays & 20,965 & Image Classification & Accuracy: 98; F1: 96.03; AUC: 97.34; Sensitivity: 96.01; Specificity: 98.67; Precision: 96.2 \\ \\ 
+\citet{Gupta.2023} & COVID-19 & DarkNet19 & Chest CT scans & 2,482 & Image Classification & Accuracy: 98.91; F1: 99; AUC: 99.89; Sensitivity: 98.96; Specificity: 98.86; Precision: 98.88 \\ \\ 
+\citet{Lo.2023} & Septic arthritis & Vision Transformer & Ultrasound images (GS and PD) & 278 & Image Classification & Accuracy: 92; AUC: 92; Sensitivity: 72; Specificity: 98 \\ \\ 
+\citet{Adhikari.2023} & COVID-19 & BoNN-enabled DTL & Wearable sensor data & 2,000,000 & Classification & Accuracy: 99.8; Sensitivity: 99; Precision: 99 \\ \\ 
+\citet{Deb.2023} & Common Cold & MFCC + LPC + SMOTE–Tomek links + DNN & Speech Signals & 28,652 & Classification & Sensitivity: 67.71 \\ \\ 
+\citet{Wang.2023} & Pneumonia & MobileNet with Graph Reasoning & Chest X-rays & 11,140 & Image Classification & Accuracy: 89.1; F1: 90; Sensitivity: 91; Precision: 88.8 \\ \\ 
+\citet{Habgood-Coote.2023} & Various Pediatric Diseases & Multi-class ML & Blood RNA Transcripts & 1,212 & Classification & - \\ \\ 
+\citet{Redie.2023} & COVID-19 & Modified DarkCovidNet & Chest X-rays & 10,000 & Image Classification & Accuracy: 99.53; F1: 98.8; Sensitivity: 98; Specificity: 100; Precision: 100 \\ \\ 
+\citet{Ye.2023} & Bone and Joint Tuberculosis vs. Tuberculosis & Logistic Regression, LASSO Regression, Random Forest & Blood Samples & 1,667 & Classification & AUC: 64.35779 \\ \\ 
+\citet{Ahamed.2023} & COVID-19 & Modified ResNet50V2 & Chest X-rays & 2,293 & Image Classification & Accuracy: 98.26; F1: 98.3; Sensitivity: 98.4; Precision: 98.4 \\ \\ 
+\citet{Reddy.2023} & COVID-19 & Ensemble Deep Honey Architecture & Chest CT scans and Chest X-rays & 241,213 & Image Classification & Accuracy: 99; F1: 98.5; AUC: 98; Sensitivity: 98.4; Specificity: 98.26; Precision: 99.3 \\ \\ 
+\citet{Chowdhury.2023} & COVID-19 & Xception & Chest X-rays & 1,823 & Image Classification & Accuracy: 99.59; F1: 99.55; Sensitivity: 99.11; Precision: 100 \\ \\ 
+\citet{Podder.2023} & COVID-19 and Pneumonia & LDDNet & Chest CT scans and Chest X-rays & 1,043 & Image Classification & Accuracy: 99.36; F1: 99; AUC: 99.98; Sensitivity: 98; Precision: 100 \\ \\ 
+\citet{Siłka.2023} & Malaria & CNN & Blood Smears & 1,364 & Classification & Accuracy: 99.68 \\ \\ 
+\citet{Awais.2023} & COVID-19 & MCMBO-ODEC & Cough Audio Signals & 2,800 & Classification & Accuracy: 97.9292; F1: 98.14844; Sensitivity: 97.94694; Specificity: 97.9066; Precision: 98.35078 \\ \\ 
+\citet{Panero.2023} & Hepatitis C & NLP EHRead® & Electronic Health Records & 2,440,358 & Classification & Recall: 72.6-100; Precision: 86.1-100; F1: 79.2-100 \\ \\ 
+\citet{Kaushik.2023} & COVID-19 & VGG-16 + VGG-19 + CNN & Chest Chest X-rays & 28,384 & Image Classification & Accuracy: 81.42; F1: 80.12; Sensitivity: 86.15; Precision: 74.88 \\ \\ 
+\citet{Shiaelis.2023} & Various Viruses & CNN & Single-Particle Imaging & 51 & Classification & Accuracy: 98.0; Sensitivity: 97.5; Precision: 100 \\ 
